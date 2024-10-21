@@ -17,6 +17,6 @@ def main():
     roommates = 4
     portion = rent_calculator(rent, electric, roommates)
 
-    print(f"Each person needs to pay ${portion} for rent and electric for this month.")
+    print(f"Each person needs to pay ${portion:.2f} for rent and electric for this month.")
 
 main ()
